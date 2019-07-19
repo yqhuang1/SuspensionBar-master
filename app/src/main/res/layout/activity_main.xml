@@ -52,6 +52,13 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/feed_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:scrollbars="vertical" />
+
         <RelativeLayout
             android:id="@+id/suspension_bar"
             android:layout_width="match_parent"
@@ -82,13 +89,6 @@
                 android:layout_below="@id/tv_nickname"
                 android:background="#33000000" />
         </RelativeLayout>
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/feed_list"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@android:color/white"
-            android:scrollbars="vertical" />
 
     </FrameLayout>
 

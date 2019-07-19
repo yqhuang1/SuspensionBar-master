@@ -7,11 +7,13 @@
     tools:context="com.xiaopo.flying.suspensionbar.MainActivity">
 
 
+    <!--bar头布局AppBarLayout   内包裹着   Toolbar-->
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:elevation="0dp">
 
+        <!--Toolbar 高度设置后固定的-->
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"

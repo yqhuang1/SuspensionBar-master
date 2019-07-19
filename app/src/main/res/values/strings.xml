@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">SuspensionBar</string>
     <string name="poigram">Poigram</string>
+    <string name="restrict">Restrict</string>
     <string name="subtitle">SubTitle</string>
     <string name="snowbean">Snowbean</string>
     <string name="title_activity_tabs">TabsActivity</string>

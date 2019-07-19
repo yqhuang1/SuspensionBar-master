@@ -45,16 +45,16 @@ public class MainActivity extends AppCompatActivity {
             public boolean onMenuItemClick(MenuItem item) {
                 Intent intent;
                 switch (item.getItemId()) {
-                    case R.id.item_jumpRestrict:
-                        intent = new Intent(MainActivity.this, MultiActivity.class);
-                        startActivity(intent);
-                        break;
                     case R.id.item_jump:
                         intent = new Intent(MainActivity.this, MultiActivity.class);
                         startActivity(intent);
                         break;
                     case R.id.item_jumpTabs:
                         intent = new Intent(MainActivity.this, TabsActivity.class);
+                        startActivity(intent);
+                        break;
+                    case R.id.item_jumpRestrict:
+                        intent = new Intent(MainActivity.this, RestrictActivity.class);
                         startActivity(intent);
                         break;
                 }
